@@ -4,13 +4,16 @@
   "description": "Api Rest osf-outlet",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Walter Fernandes Justino",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mariadb": "^2.5.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
